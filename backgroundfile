@@ -31,7 +31,7 @@
       earth.velocity = rotateVector(earth.velocity, 0, 0, 109 * Math.PI / 180);
   
       // Uncomment to add the Earth's moon
-      // let moon = new AstronomicalObject(1737400, 7.347e22, [151000000000 + 384399000, 0, 0], [0, 29800, 1022]);
+      // let moon = new AstronomicalObject("Moon", 1737400, 7.347e22, [151000000000 + 384399000, 0, 0], [0, 29800, 1022]);
       // moon.color.set('white');
   
       const mars = new AstronomicalObject('Mars', 3389500, 6.39e23, [213140000000, 0, 0], [0, 24070, 0]);
